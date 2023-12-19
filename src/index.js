@@ -68,3 +68,12 @@ import ReactDOM from 'react-dom';
 
 // <==== JSX Attribute in react ====>
 
+const name = "Joanie"
+
+
+ReactDOM.render(
+  <>
+  <h1> My name dog's name is {name} </h1>
+
+  </>, document.getElementById("root")
+);
