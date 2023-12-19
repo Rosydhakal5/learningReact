@@ -49,19 +49,22 @@ import ReactDOM from 'react-dom';
   
 // )
 
-//<===creating h1 element, Paragraph with today's date and current time==============>
+// //<===creating h1 element, Paragraph with today's date and current time==============>
 
-const name = "Rosy";
-const current = new Date().toLocaleDateString();
-const currentTime = new Date().toLocaleTimeString();
+// const name = "Rosy";
+// const current = new Date().toLocaleDateString();
+// const currentTime = new Date().toLocaleTimeString();
 
 
-ReactDOM.render(
-  <>
-  <h1> 
-    Hello, My name is {name}
-    </h1>
-    <p> Today's date is = {current} </p>
-    <p> Current Time is = {currentTime} </p>
-    </>, document.getElementById("root")
-);
+// ReactDOM.render(
+//   <>
+//   <h1> 
+//     Hello, My name is {name}
+//     </h1>
+//     <p> Today's date is = {current} </p>
+//     <p> Current Time is = {currentTime} </p>
+//     </>, document.getElementById("root")
+// );
+
+// <==== JSX Attribute in react ====>
+
