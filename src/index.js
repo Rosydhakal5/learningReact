@@ -69,12 +69,26 @@ import ReactDOM from 'react-dom';
 // <==== JSX Attribute in react ====>
 
 const name = "Joanie"
+const img1 = "https://picsum.photos/id/237/50/100";
+const img2 = "https://picsum.photos/id/237/10/20";
+const img3 = "https://picsum.photos/id/237/50/100";
+const img4 = "https://picsum.photos/id/237/100/200";
+const img5 = "https://picsum.photos/id/237/300/300";
+const link = "https://au.linkedin.com/in/rosydhakal";
 
 
 ReactDOM.render(
   <>
   <h1 contentEditable= "true"> My name dog's name is {name} </h1>
-  <img src='https://picsum.photos/id/237/200/300'/>
+  <img src = {img1} alt='image of my dog'/>
+  <img src = {img2} alt='image of my dog'/>
+  <img src = {img3} alt='image of my dog'/>
+  <img src = {img4} alt='image of my dog'/>
+  <a href={link} target='_blank' > Click me
+  
+  <img src = {img5} alt='image of my dog'/> </a>
+ 
+
 
   </>, document.getElementById("root")
 );
