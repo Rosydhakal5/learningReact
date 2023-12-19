@@ -52,6 +52,7 @@ import ReactDOM from 'react-dom';
 //<===creating h1 element, Paragraph with today's date and current time==============>
 
 const name = "Rosy";
+const current = new Date();
 
 
 
@@ -61,7 +62,7 @@ ReactDOM.render(
   <h1> 
     Hello, My name is {name}
     </h1>
-    <p> Todays date is {} </p>
-    <p> Current Time is {} </p>
+    <p> Todays date is = {current} </p>
+    <p> Current Time is = {} </p>
     </>, document.getElementById("root")
 );
