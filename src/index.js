@@ -34,3 +34,17 @@ import ReactDOM from 'react-dom';
 // );
 
 //<=======Template Literals ============>
+const fName = "Rosy";
+const LName = "Dhakal";
+
+ReactDOM.render(
+  <>
+  <h1> 
+    {/* Hi My name is {fName +" " +LName} */}
+    {`Hi My name is ${fName} ${LName} `}
+  </h1>
+  <p>
+  </p>
+  </>, document.getElementById("root")
+  
+)
