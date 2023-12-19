@@ -74,6 +74,7 @@ const name = "Joanie"
 ReactDOM.render(
   <>
   <h1 contentEditable= "true"> My name dog's name is {name} </h1>
+  <img src='https://picsum.photos/id/237/200/300'/>
 
   </>, document.getElementById("root")
 );
