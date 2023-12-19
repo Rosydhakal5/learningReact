@@ -73,7 +73,7 @@ const name = "Joanie"
 
 ReactDOM.render(
   <>
-  <h1> My name dog's name is {name} </h1>
+  <h1 contentEditable= "true"> My name dog's name is {name} </h1>
 
   </>, document.getElementById("root")
 );
