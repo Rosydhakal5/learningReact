@@ -53,13 +53,15 @@ import ReactDOM from 'react-dom';
 
 const name = "Rosy";
 const current = new Date().toLocaleDateString();
+const currentTime = new Date().toLocaleTimeString();
+
 
 ReactDOM.render(
   <>
   <h1> 
     Hello, My name is {name}
     </h1>
-    <p> Todays date is = {current} </p>
-    <p> Current Time is = {} </p>
+    <p> Today's date is = {current} </p>
+    <p> Current Time is = {currentTime} </p>
     </>, document.getElementById("root")
 );
