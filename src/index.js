@@ -22,13 +22,15 @@ import ReactDOM from 'react-dom';
 
 //============Javascript Expression in JSX in ReactJs=========
 
-const fName = "Rosy Dhakal";
-ReactDOM.render(
-  <>
-  <h1> Hi my name is {fName} </h1>
-   <p> I am Super happy to learn React</p>
+// const fName = "Rosy Dhakal";
+// ReactDOM.render(
+//   <>
+//   <h1> Hi my name is {fName} </h1>
+//    <p> I am Super happy to learn React</p>
  
-   </>
-,document.getElementById("root")
+//    </>
+// ,document.getElementById("root")
 
-);
+// );
+
+//<=======Template Literals ============>
