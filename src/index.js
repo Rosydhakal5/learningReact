@@ -50,10 +50,16 @@ import ReactDOM from 'react-dom';
 // )
 
 //<===creating h1 element, Paragraph with today's date and current time==============>
+
+const name = "Rosy";
+
+
+
+
 ReactDOM.render(
   <>
   <h1> 
-    This is h1 element 
+    Hello, My name is {name}
     </h1>
     <p> Todays date is {} </p>
     <p> Current Time is {} </p>
