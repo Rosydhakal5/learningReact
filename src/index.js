@@ -52,10 +52,7 @@ import ReactDOM from 'react-dom';
 //<===creating h1 element, Paragraph with today's date and current time==============>
 
 const name = "Rosy";
-const current = new Date();
-
-
-
+const current = new Date().toLocaleDateString();
 
 ReactDOM.render(
   <>
