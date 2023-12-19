@@ -50,4 +50,12 @@ import ReactDOM from 'react-dom';
 // )
 
 //<===creating h1 element, Paragraph with today's date and current time==============>
-
+ReactDOM.render(
+  <>
+  <h1> 
+    This is h1 element 
+    </h1>
+    <p> Todays date is {} </p>
+    <p> Current Time is {} </p>
+    </>, document.getElementById("root")
+);
