@@ -34,17 +34,20 @@ import ReactDOM from 'react-dom';
 // );
 
 //<=======Template Literals ============>
-const fName = "Rosy";
-const LName = "Dhakal";
+// const fName = "Rosy";
+// const LName = "Dhakal";
 
-ReactDOM.render(
-  <>
-  <h1> 
-    {/* Hi My name is {fName +" " +LName} */}
-    {`Hi My name is ${fName} ${LName} `}
-  </h1>
-  <p>
-  </p>
-  </>, document.getElementById("root")
+// ReactDOM.render(
+//   <>
+//   <h1> 
+//     {/* Hi My name is {fName +" " +LName} */}
+//     {`Hi My name is ${fName} ${LName} `}
+//   </h1>
+//   <p>
+//   </p>
+//   </>, document.getElementById("root")
   
-)
+// )
+
+//<===creating h1 element, Paragraph with today's date and current time==============>
+
